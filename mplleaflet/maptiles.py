@@ -50,6 +50,10 @@ cartodb_positron = (
     '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
 )
 
+cartodb_dark = (
+    'https://cartodb-basemaps-b.global.ssl.fastly.net/dark_all/{Z}/{X}/{Y}.png'
+    '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attribution">CARTODB</a>'
+)
 
 tiles = {
     'osm': osm,
@@ -61,6 +65,7 @@ tiles = {
     'stamen_toner': stamen_toner,
     'esri_natgeo': esri_natgeo,
     'cartodb_positron': cartodb_positron,
+    'cartodb_dark': cartodb_dark,
     'esri_worldtopo': esri_worldtopo
 }
 
